@@ -1,0 +1,40 @@
+{
+  "id": "cd168219-8e2a-4e1e-93ce-37588a906577",
+  "parentId": "3fe69783-c22b-4851-a943-1666a023e3a3",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Integration - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-integration-response",
+    "Service-Salesforce-Integration-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom.Service-Salesforce-Integration-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Salesforce Integration needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

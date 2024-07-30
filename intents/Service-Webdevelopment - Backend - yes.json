@@ -1,0 +1,63 @@
+{
+  "id": "1ab1d827-ec48-48af-9248-7725ec81e8d4",
+  "parentId": "586230a7-32b4-4b67-8f0c-e6f84ea3aea9",
+  "rootParentId": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "name": "Service-Webdevelopment - Backend - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-backend-response",
+    "Service-Webdevelopment-Backend-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Webdevelopment.Service-Webdevelopment-custom.Service-Webdevelopment-Backend-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, connecting you with our team now..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Talk to Human",
+                  "message": "Connecting you to an agent..."
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "234aac17-ef33-4f90-b4b9-43030b11078c",
+  "parentId": "cabbefbb-584a-41a5-9019-0a5fceaddf17",
+  "rootParentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud - Cloud Management - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-cloud-management-response",
+    "Service-Cloud-CloudManagement-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Cloud.Service-Cloud-custom.Service-Cloud-CloudManagement-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, connecting you with our team now..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Connecting you to an agent...",
+                  "title": "Talk to Human"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

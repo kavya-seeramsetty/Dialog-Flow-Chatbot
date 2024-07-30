@@ -1,0 +1,70 @@
+{
+  "id": "2e0bf9ab-91c9-46b0-8e01-9c7ff2dc8c34",
+  "name": "services",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What kind of services are you looking for? We offer RPA, Cloud, Salesforce, and Web Development."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Robotics",
+                  "message": "RPA"
+                },
+                {
+                  "title": "Cloud",
+                  "message": "Cloud"
+                },
+                {
+                  "message": "Salesforce",
+                  "title": "Salesforce"
+                },
+                {
+                  "message": "Web Development",
+                  "title": "Web Development"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

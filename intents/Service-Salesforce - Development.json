@@ -1,0 +1,76 @@
+{
+  "id": "950f85f4-860b-46cd-9b99-4375c5f676ea",
+  "parentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Development",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-response",
+    "Service-Salesforce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-salesforce-development-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Salesforce-Development-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Salesforce Development services help customize and build solutions on the Salesforce platform. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Yes",
+                  "title": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

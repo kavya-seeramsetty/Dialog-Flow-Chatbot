@@ -1,0 +1,40 @@
+{
+  "id": "652c622b-9e3b-4777-bb31-b55b915bc443",
+  "parentId": "950f85f4-860b-46cd-9b99-4375c5f676ea",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Development - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-development-response",
+    "Service-Salesforce-Development-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom.Service-Salesforce-Development-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Salesforce Development needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

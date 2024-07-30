@@ -1,0 +1,76 @@
+{
+  "id": "3fe69783-c22b-4851-a943-1666a023e3a3",
+  "parentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Integration",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-response",
+    "Service-Salesforce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-salesforce-integration-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Salesforce-Integration-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Salesforce Integration services connect Salesforce with your existing systems for seamless data flow. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "message": "Yes",
+                  "title": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ],
+              "contentType": "300",
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

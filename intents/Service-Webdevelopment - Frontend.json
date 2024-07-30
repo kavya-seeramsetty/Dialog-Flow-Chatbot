@@ -1,0 +1,76 @@
+{
+  "id": "e920bcef-d673-45de-82e0-e2e7438c5382",
+  "parentId": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "rootParentId": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "name": "Service-Webdevelopment - Frontend",
+  "auto": true,
+  "contexts": [
+    "awaiting-webdevelopment-response",
+    "Service-Webdevelopment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Webdevelopment.Service-Webdevelopment-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-frontend-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Webdevelopment-Frontend-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Frontend development services include HTML, CSS, JavaScript, and frameworks like React and Angular. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Yes",
+                  "title": "Yes"
+                },
+                {
+                  "title": "No",
+                  "message": "No"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "5a5a3fda-bfcd-4daf-adcf-b57278b2d7f4",
+  "parentId": "1b99a6e3-7ec3-4fad-861e-70d03863fbb1",
+  "rootParentId": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "name": "RPA-Automation - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-automation-response",
+    "RPA-Automation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-RPA.Service-RPA-custom.RPA-Automation-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, connecting you with our team now..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Connecting you to an agent...",
+                  "title": "Talk to Human"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

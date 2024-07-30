@@ -1,0 +1,40 @@
+{
+  "id": "0abbf161-4ae1-4e5b-a25a-a28ba0f937f4",
+  "parentId": "e920bcef-d673-45de-82e0-e2e7438c5382",
+  "rootParentId": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "name": "Service-Webdevelopment - Frontend - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-frontend-response",
+    "Service-Webdevelopment-Frontend-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Webdevelopment.Service-Webdevelopment-custom.Service-Webdevelopment-Frontend-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Frontend development needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "96469181-1166-464a-87e0-f28e15bd8b01",
+  "parentId": "1a050353-0299-483e-9259-a75b801b7c07",
+  "rootParentId": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "name": "Service-Webdevelopment - Fullstack - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-fullstack-response",
+    "Service-Webdevelopment-Fullstack-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Webdevelopment.Service-Webdevelopment-custom.Service-Webdevelopment-Fullstack-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Full Stack development needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "1d05fcfa-f076-45fa-a5bd-3ffc7b331cdd",
+    "data": [
+      {
+        "text": "You can call me on ",
+        "userDefined": false
+      },
+      {
+        "text": "999-888-7777",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0752885-5c1b-455c-9b19-9803a34006f0",
+    "data": [
+      {
+        "text": "My number is ",
+        "userDefined": false
+      },
+      {
+        "text": "111-222-3333",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "761e0c1e-ce48-40ed-b940-baab97ea6dd7",
+    "data": [
+      {
+        "text": "The best number to contact me is ",
+        "userDefined": false
+      },
+      {
+        "text": "555-555-5555",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a1fafc2-1742-4937-85ba-1e05d766cada",
+    "data": [
+      {
+        "text": "You can reach me at ",
+        "userDefined": false
+      },
+      {
+        "text": "987-654-3210",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43737fca-95c2-497d-b902-763b5c4d2656",
+    "data": [
+      {
+        "text": "My phone number is ",
+        "userDefined": false
+      },
+      {
+        "text": "123-456-7890",
+        "meta": "@sys.phone-number",
+        "alias": "phone",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5a96884-5e83-474c-9a84-ec76077fca23",
+    "data": [
+      {
+        "text": "The name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Bob",
+        "meta": "@sys.given-name",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbceadac-9402-4695-a601-582708b42376",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "Alice",
+        "meta": "@sys.given-name",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cdf6bba-5124-4a30-a824-5d42a79688f0",
+    "data": [
+      {
+        "text": "You can call me ",
+        "userDefined": false
+      },
+      {
+        "text": "Jane Smith",
+        "meta": "@sys.given-name",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ab2cc8e8-8654-474a-ac28-8650a84d11fd",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "John Doe",
+        "meta": "@sys.given-name",
+        "alias": "person",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9f93c57e-a89b-42f0-bc1d-704dc7859a9b",
+    "data": [
+      {
+        "text": "You can reach me at ",
+        "userDefined": false
+      },
+      {
+        "text": "user@example.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3d8a825-de66-4f79-8636-05dc2167177c",
+    "data": [
+      {
+        "text": "how about ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "035a4836-8714-4e55-8f16-b7b2d1c0b43f",
+    "data": [
+      {
+        "text": "what about ",
+        "userDefined": false
+      },
+      {
+        "text": "4pm",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " tomorrow",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c7bedd3-02ee-4f7b-816d-77051bf51032",
+    "data": [
+      {
+        "text": "ok how about ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b96ea4b4-e6de-4762-a231-6f6433831b67",
+    "data": [
+      {
+        "text": "It\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "jane@example.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c882475a-6433-4b54-967f-2a260bcacab7",
+    "data": [
+      {
+        "text": "My email is ",
+        "userDefined": false
+      },
+      {
+        "text": "john.doe@example.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e45ef84d-61da-4674-9fcc-97fbda90731c",
+    "data": [
+      {
+        "text": "service2",
+        "meta": "@AppointmentType",
+        "alias": "AppointmentType",
+        "userDefined": true
+      },
+      {
+        "text": " appointment at ",
+        "userDefined": false
+      },
+      {
+        "text": "2PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " tomorrow",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "268b0e7c-de47-42c0-bc43-9883e6a435e2",
+    "data": [
+      {
+        "text": "set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "service1",
+        "meta": "@AppointmentType",
+        "alias": "AppointmentType",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d946155-befb-45f6-a14d-3c6328d782e2",
+    "data": [
+      {
+        "text": "Appointment for 5.30pm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0dfc1cfe-79e4-4e47-bd8f-f25f388735fb",
+    "data": [
+      {
+        "text": "set an appointment at 4pm ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8d68975-4d8e-41fe-860d-75132661b91b",
+    "data": [
+      {
+        "text": "set an appointment at 4pm",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14200bce-1c33-4e7a-a70a-2d8602af9d6f",
+    "data": [
+      {
+        "text": "I would like to schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "id": "ccbcf4a8-a5a8-46ca-8b95-db982cd689ae",
+  "parentId": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "rootParentId": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "name": "RPA-Consulting",
+  "auto": true,
+  "contexts": [
+    "Service-RPA-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-RPA.Service-RPA-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-consulting-response",
+          "lifespan": 1
+        },
+        {
+          "name": "RPA-Consulting-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "We offer consulting services to help you with your RPA journey. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

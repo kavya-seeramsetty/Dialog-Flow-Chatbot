@@ -1,0 +1,40 @@
+{
+  "id": "cd4e0097-43e7-4d58-bbae-a869a4b085c3",
+  "parentId": "cabbefbb-584a-41a5-9019-0a5fceaddf17",
+  "rootParentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud - Cloud Management - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-cloud-management-response",
+    "Service-Cloud-CloudManagement-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Cloud.Service-Cloud-custom.Service-Cloud-CloudManagement-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Cloud Management needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

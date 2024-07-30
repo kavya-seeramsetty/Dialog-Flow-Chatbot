@@ -1,0 +1,75 @@
+{
+  "id": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting-cloud-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Cloud-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What specific aspect of Cloud services are you interested in? We offer Cloud Migration, Cloud Management, and Cloud Security."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Cloud Migration",
+                  "title": "Cloud Migration"
+                },
+                {
+                  "message": "Cloud Management",
+                  "title": "Cloud Management"
+                },
+                {
+                  "message": "Cloud Security",
+                  "title": "Cloud Security"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

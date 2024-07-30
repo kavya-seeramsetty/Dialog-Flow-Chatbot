@@ -1,0 +1,41 @@
+[
+  {
+    "id": "3ee68d0f-aa42-4354-a037-c91c18d727c5",
+    "data": [
+      {
+        "text": "Connect with team",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4199627-c315-40f5-854c-cd1498bbc64e",
+    "data": [
+      {
+        "text": "Talk to Human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c80a326d-002b-4b38-8e4a-d4257254e5b7",
+    "data": [
+      {
+        "text": "talk to an agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

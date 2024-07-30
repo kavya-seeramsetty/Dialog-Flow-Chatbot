@@ -1,0 +1,84 @@
+{
+  "id": "95200e2a-2620-4346-ac34-04f953c4f535",
+  "parentId": "1c6b8065-0c04-4388-8724-d5a6595dfe92",
+  "rootParentId": "1c6b8065-0c04-4388-8724-d5a6595dfe92",
+  "name": "scheduleAppointment - retry",
+  "auto": true,
+  "contexts": [
+    "scheduleAppointment-followup",
+    "awaiting_new_date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "scheduleAppointment.scheduleAppointment-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting_new_date",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a1b48468-8ebf-4e54-99a9-5eb532caf294",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what date would you like to book an appointment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9475f12a-1c3a-4a83-8055-006fca9af898",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time would you like the appointment? Please specify AM or PM?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Checking the new date..."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

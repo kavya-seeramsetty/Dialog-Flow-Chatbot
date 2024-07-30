@@ -1,0 +1,326 @@
+[
+  {
+    "id": "b9dd5657-3bb1-4bf6-98b8-181eeb8cdf71",
+    "data": [
+      {
+        "text": "What can you help me with",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7ae5a741-1027-4dd3-a740-0e92a7c3a821",
+    "data": [
+      {
+        "text": "Give me an ",
+        "userDefined": false
+      },
+      {
+        "text": "overview of your services",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "49e18007-806f-495e-b590-0238bdde0840",
+    "data": [
+      {
+        "text": "What can I use your services for",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09cb99c8-54ba-4263-8611-a24d91695d1d",
+    "data": [
+      {
+        "text": "Can you describe your services?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64b3fd2f-dc58-40db-b1ae-20a52388fd99",
+    "data": [
+      {
+        "text": "What are the ",
+        "userDefined": false
+      },
+      {
+        "text": "options available",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b0a351a-90c6-4d27-bbdb-3befb824a3ee",
+    "data": [
+      {
+        "text": "What kind of help can you offer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b2adc42-1703-4b0f-a4c7-0b34837b574a",
+    "data": [
+      {
+        "text": "Tell me your services",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00754afd-e534-4008-850a-03ddd7925909",
+    "data": [
+      {
+        "text": "Can you list your services?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "468c89b3-aea5-4602-8fb4-2b20e0d5fada",
+    "data": [
+      {
+        "text": "What do you have for me",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8cf3f8c-e976-440d-b7f4-f04e4c86a4e2",
+    "data": [
+      {
+        "text": "What kind of ",
+        "userDefined": false
+      },
+      {
+        "text": "services can I avail",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9857b701-141f-4432-8e5f-bc8797a261c7",
+    "data": [
+      {
+        "text": "Services you offer",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02744691-e3a7-4e10-b16a-d7e72a34ec44",
+    "data": [
+      {
+        "text": "What can I get from you",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed124176-5805-4e29-89c9-d9c77ac01dbd",
+    "data": [
+      {
+        "text": "What do you provide",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d459eccc-3c2b-4c3b-96df-b3ab78ea6e08",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "services are available",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91d2c576-6c87-4bc5-a78b-a8a828d165bb",
+    "data": [
+      {
+        "text": "What can you do for me",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0c6b9ae-9120-4ce1-94a2-8459666b7c26",
+    "data": [
+      {
+        "text": "Tell me about your ",
+        "userDefined": false
+      },
+      {
+        "text": "services",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "733d5f4e-c6b4-4e88-8e3f-ec234421a985",
+    "data": [
+      {
+        "text": "List your ",
+        "userDefined": false
+      },
+      {
+        "text": "services",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ea858415-e36b-4d7d-824f-bcea8974f280",
+    "data": [
+      {
+        "text": "What ",
+        "userDefined": false
+      },
+      {
+        "text": "services do you offer",
+        "meta": "@sys.url",
+        "alias": "url",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

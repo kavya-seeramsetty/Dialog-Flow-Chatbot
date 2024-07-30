@@ -1,0 +1,26 @@
+[
+  {
+    "value": "Robotics",
+    "synonyms": [
+      "Robotics"
+    ]
+  },
+  {
+    "value": "Salesforce",
+    "synonyms": [
+      "Salesforce"
+    ]
+  },
+  {
+    "value": "WebDevelopment",
+    "synonyms": [
+      "WebDevelopment"
+    ]
+  },
+  {
+    "value": "others",
+    "synonyms": [
+      "others"
+    ]
+  }
+]

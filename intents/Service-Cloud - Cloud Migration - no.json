@@ -1,0 +1,40 @@
+{
+  "id": "f0ecb3f3-1d3c-435d-adf4-b7d96698256c",
+  "parentId": "75e5f82e-e68a-4982-a8a2-3df959b6a3ab",
+  "rootParentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud - Cloud Migration - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-cloud-migration-response",
+    "Service-Cloud-CloudMigration-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Cloud.Service-Cloud-custom.Service-Cloud-CloudMigration-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Cloud Migration needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

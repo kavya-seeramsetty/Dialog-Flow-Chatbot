@@ -1,0 +1,63 @@
+{
+  "id": "5af34e53-c5ff-4195-ab05-9ec69486740a",
+  "parentId": "950f85f4-860b-46cd-9b99-4375c5f676ea",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Development - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-development-response",
+    "Service-Salesforce-Development-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom.Service-Salesforce-Development-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, connecting you with our team now..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "message": "Connecting you to an agent...",
+                  "title": "Talk to Human"
+                }
+              ],
+              "contentType": "300"
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "75071b89-3e97-4f6e-ac89-3b7c2f21bd84",
+    "data": [
+      {
+        "text": "I need RPA services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c00a67e-c31d-4bab-87de-8cf0abc1e81c",
+    "data": [
+      {
+        "text": "Tell me about RPA services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7fed8a73-541b-4a61-932a-bb94eabca427",
+    "data": [
+      {
+        "text": "RPA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

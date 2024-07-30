@@ -1,0 +1,76 @@
+{
+  "id": "efeb4959-20e6-4c54-932e-bc164daf8d39",
+  "parentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "rootParentId": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce - Consulting",
+  "auto": true,
+  "contexts": [
+    "awaiting-salesforce-response",
+    "Service-Salesforce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Salesforce.Service-Salesforce-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-salesforce-consulting-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Salesforce-Consulting-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Salesforce Consulting services provide strategic guidance and support for maximizing Salesforce effectiveness. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "templateId": "6",
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "title": "No",
+                  "message": "No"
+                }
+              ],
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

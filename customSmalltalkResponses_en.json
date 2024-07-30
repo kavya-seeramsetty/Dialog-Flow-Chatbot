@@ -1,0 +1,26 @@
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "I\u0027m Chatbot, an AI assistant here to help you with any questions"
+    ]
+  },
+  {
+    "action": "smalltalk.emotions.ha_ha",
+    "customAnswers": [
+      "😄 Glad to bring a smile to your face! If there\u0027s anything else you\u0027d like to chat about or need assistance with, feel free to let me know!"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.bye",
+    "customAnswers": [
+      "Goodbye! If you ever need help in the future, don\u0027t hesitate to reach out. Take care! 👋"
+    ]
+  },
+  {
+    "action": "smalltalk.user.bored",
+    "customAnswers": [
+      "I can help with that! What do you feel like chatting about or exploring?"
+    ]
+  }
+]

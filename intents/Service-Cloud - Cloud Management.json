@@ -1,0 +1,76 @@
+{
+  "id": "cabbefbb-584a-41a5-9019-0a5fceaddf17",
+  "parentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "rootParentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud - Cloud Management",
+  "auto": true,
+  "contexts": [
+    "awaiting-cloud-response",
+    "Service-Cloud-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Cloud.Service-Cloud-custom",
+      "affectedContexts": [
+        {
+          "name": "awaiting-cloud-management-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Cloud-CloudManagement-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our Cloud Management services ensure your cloud environment is optimized, secure, and cost-effective. Do you want to connect with the team? (yes/no)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Yes",
+                  "message": "Yes"
+                },
+                {
+                  "message": "No",
+                  "title": "No"
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

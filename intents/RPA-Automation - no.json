@@ -1,0 +1,45 @@
+{
+  "id": "119db5dc-59e4-43cd-b80b-890bc3fdbdad",
+  "parentId": "1b99a6e3-7ec3-4fad-861e-70d03863fbb1",
+  "rootParentId": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "name": "RPA-Automation - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-automation-response",
+    "RPA-Automation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-RPA.Service-RPA-custom.RPA-Automation-no",
+      "affectedContexts": [
+        {
+          "name": "RPA-Automation-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific automation tasks are you looking to implement?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "fecbdb2d-d3b0-41e8-ba52-4b5031c6c932",
+  "parentId": "ccbcf4a8-a5a8-46ca-8b95-db982cd689ae",
+  "rootParentId": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "name": "RPA-Consulting - yes",
+  "auto": true,
+  "contexts": [
+    "awaiting-consulting-response",
+    "RPA-Consulting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-RPA.Service-RPA-custom.RPA-Consulting-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sure, connecting you with our team now..."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "payload": [
+                {
+                  "title": "Talk to Human",
+                  "message": "Connecting you to an agent..."
+                }
+              ],
+              "templateId": "6",
+              "contentType": "300"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

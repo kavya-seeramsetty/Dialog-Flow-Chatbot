@@ -1,0 +1,41 @@
+[
+  {
+    "id": "65dfb513-2542-4260-9dba-af3282e73a4f",
+    "data": [
+      {
+        "text": "I need Cloud services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5be23bf4-e4f1-4ca2-87ca-aa9e3e624305",
+    "data": [
+      {
+        "text": "Tell me about Cloud services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f486a2dc-09fc-4a42-8429-88b8b48b665c",
+    "data": [
+      {
+        "text": "Cloud",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

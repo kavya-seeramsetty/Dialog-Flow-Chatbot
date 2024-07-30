@@ -1,0 +1,75 @@
+{
+  "id": "9a57d9dc-0c00-4f31-93f0-35ba56fd17dc",
+  "name": "Service-Webdevelopment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting-webdevelopment-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Webdevelopment-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What specific aspect of Web Development services are you interested in? We offer Frontend, Backend, and Full Stack Development."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "metadata": {
+              "templateId": "6",
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Frontend",
+                  "message": "Frontend"
+                },
+                {
+                  "message": "Backend",
+                  "title": "Backend"
+                },
+                {
+                  "title": "Full Stack",
+                  "message": "Full Stack"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

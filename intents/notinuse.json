@@ -1,0 +1,92 @@
+{
+  "id": "a5f740aa-8d4c-471a-9d38-13efd95e3661",
+  "name": "notinuse",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "937f1bbf-30a6-4453-b92e-a97d7021cd17",
+          "name": "url",
+          "required": false,
+          "dataType": "@sys.url",
+          "value": "$url",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you want to subscribe for the newsletter?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "message": "Explore our services",
+            "metadata": {
+              "templateId": "3",
+              "contentType": "300",
+              "payload": [
+                {
+                  "name": "RPA",
+                  "url": "https://matacs.com/development/robotics-process-automation/",
+                  "type": "link"
+                },
+                {
+                  "url": "https://matacs.com/development/mobile-web-development/",
+                  "type": "link",
+                  "name": "Web Development"
+                },
+                {
+                  "type": "link",
+                  "url": "https://matacs.com/development/warehouse-technology-solutions/",
+                  "name": "Warehouse"
+                },
+                {
+                  "name": "Cloud Solutions",
+                  "url": "https://matacs.com/development/microsoft-cloud-solutions-provider/",
+                  "type": "link"
+                },
+                {
+                  "type": "link",
+                  "url": "https://matacs.com/development/salesforce-crm-solutions-provider/",
+                  "name": "Salesforce"
+                },
+                {
+                  "type": "link",
+                  "name": "Cloud Integration",
+                  "url": "https://matacs.com/development/cloud-integration-experts/"
+                }
+              ]
+            },
+            "platform": "kommunicate"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

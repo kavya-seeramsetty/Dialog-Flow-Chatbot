@@ -1,0 +1,40 @@
+{
+  "id": "ab8149ff-c944-4fca-bd4f-0a7d26be3b3f",
+  "parentId": "5fd465ec-36e6-4d02-b967-5dc20ff142d1",
+  "rootParentId": "b3ee53d7-e8ba-4f0d-8e5d-03b21d738f9d",
+  "name": "Service-Cloud - Cloud Security - no",
+  "auto": true,
+  "contexts": [
+    "awaiting-cloud-security-response",
+    "Service-Cloud-CloudSecurity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Service-Cloud.Service-Cloud-custom.Service-Cloud-CloudSecurity-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, let\u0027s continue with the discussion. What specific Cloud Security needs do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "54d3595e-a9d8-406f-bdc5-5a8c7f9616c2",
+  "name": "Service-RPA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Service-RPA-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What specific aspect of RPA are you interested in? We offer Automation, Consulting, and Development."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Automation",
+                  "message": "Automation"
+                },
+                {
+                  "title": "Consulting",
+                  "message": "Consulting"
+                },
+                {
+                  "message": "Development",
+                  "title": "Development"
+                }
+              ],
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

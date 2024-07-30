@@ -1,0 +1,75 @@
+{
+  "id": "14c7c3db-c272-4d3d-922d-cbaba84a10d9",
+  "name": "Service-Salesforce",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "awaiting-salesforce-response",
+          "lifespan": 1
+        },
+        {
+          "name": "Service-Salesforce-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What specific Salesforce services are you interested in? We provide Salesforce Development, Salesforce Integration, and Salesforce Consulting."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "message": "Salesforce Development",
+                  "title": "Salesforce Development"
+                },
+                {
+                  "message": "Salesforce Integration",
+                  "title": "Salesforce Integration"
+                },
+                {
+                  "message": "Salesforce Consulting",
+                  "title": "Salesforce Consulting"
+                }
+              ],
+              "templateId": "6"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

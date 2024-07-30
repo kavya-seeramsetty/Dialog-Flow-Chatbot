@@ -1,0 +1,41 @@
+[
+  {
+    "id": "3bc71dec-0425-4df5-bbe9-a14e164c8a82",
+    "data": [
+      {
+        "text": "I need Salesforce services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f36ba495-2233-4955-b833-80a26f3e95e1",
+    "data": [
+      {
+        "text": "Tell me about Salesforce services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71454518-606b-42e3-9a9f-bed1c1a2ba17",
+    "data": [
+      {
+        "text": "Salesforce",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "84e9fdd9-ef51-43c6-adac-edfd38125c9c",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "platform": "kommunicate",
+            "metadata": {
+              "contentType": "300",
+              "payload": [
+                {
+                  "title": "Book an Appointment",
+                  "message": "set an appointment"
+                },
+                {
+                  "title": "Services",
+                  "message": "Services"
+                },
+                {
+                  "title": "Talk to Human",
+                  "message": "Talk to Human"
+                }
+              ],
+              "templateId": "6"
+            },
+            "message": "Welcome to Matacs! How may I assist you today?"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
